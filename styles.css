@@ -1,2 +1,6 @@
 body{background-color: darkmagenta;}
 .titular{color: black;}
+#titular2{color: darkorange;}
+#whatsapp{position:fixed;bottom:10px;right:10px}
+#padding-interno{padding:50px;margin:10px;}
+*{border: 1px solid red}

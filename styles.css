@@ -1,7 +1,19 @@
-body{background-color: brown;}
+body{background-color: bisque;}
 .titular{color: black;}
 #titular2{color: black;}
 #whatsapp{position:fixed;bottom:10px;right:10px}
 #padding-interno{padding:50px;margin:10px;}
 *{border: 1px solid red}
 #desc{padding: 20px;margin:10px;}
+.caja1{
+    color:whitesmoke; background-color: black;
+padding-top: 175px;
+}
+
+
+#imagen2{
+width: 30%
+}
+#imagen{
+    width: 30%
+    }

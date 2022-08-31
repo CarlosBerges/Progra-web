@@ -3,7 +3,6 @@ body{background-color: bisque;}
 #titular2{color: black;}
 #whatsapp{position:fixed;bottom:10px;right:10px}
 #padding-interno{padding:50px;margin:10px;}
-*{border: 1px solid red}
 #desc{padding: 20px;margin:10px;}
 .caja1{
     color:whitesmoke; background-color: black;
@@ -17,3 +16,19 @@ width: 30%
 #imagen{
     width: 30%
     }
+
+.nav{
+    width: 100%;
+    background-color: black;
+}
+.centro{
+    display: flex;
+}
+.centro li{
+    list-style-type: none;
+    margin: 15px;
+
+}
+.centro li a{
+    color: whitesmoke;
+}

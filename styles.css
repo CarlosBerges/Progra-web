@@ -32,3 +32,11 @@ width: 30%
 .centro li a{
     color: whitesmoke;
 }
+
+
+.flex-container {
+    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }

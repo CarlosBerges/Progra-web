@@ -54,7 +54,7 @@ display: flex;
 }
 .centro{
     display: flex;
-    width: 90%;
+    width: 80%;
 }
 .centro li{
     list-style-type: none;
@@ -86,10 +86,12 @@ display: flex;
     text-align: center;
 }
 <style>
-@media screen and (max-width: 10000px){
-
+@media screen and (max-width: 800px){
+    .centro{
+        width: 50%
     }
     }
+    
     
 }
 #titu{

@@ -54,7 +54,7 @@ display: flex;
 }
 .centro{
     display: flex;
-    width: 80%;
+    width: 70%;
 }
 .centro li{
     list-style-type: none;

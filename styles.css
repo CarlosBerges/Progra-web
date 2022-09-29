@@ -51,10 +51,12 @@ display: flex;
     background-color: black;
     position: fixed;
     margin-top: -21px;
+    margin-left: -1%;
 }
 .centro{
     display: flex;
-    width: 70%;
+    width: 80%;
+
 }
 .centro li{
     list-style-type: none;

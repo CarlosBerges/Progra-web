@@ -87,7 +87,7 @@ display: flex;
 <style>
 @media screen and (max-width: 10000px){
     .nav {
-        width: 100%;
+        width: 20%;
     }
     }
     

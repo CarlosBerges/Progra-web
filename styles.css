@@ -18,11 +18,11 @@ padding-top: 175px;
     
     
 .contenedor{
-    height: 10%;
+    height: 15%;
     width: 75%;
     margin: auto;
     overflow: hidden;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 .contenedor ul {
     display: flex;

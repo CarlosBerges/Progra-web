@@ -22,7 +22,7 @@ padding-top: 175px;
     width: 75%;
     margin: auto;
     overflow: hidden;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .contenedor ul {
     display: flex;
@@ -115,10 +115,12 @@ padding-top: 175px;
     .centro{
         width: 50%
     }
+    .contenedor{
+        margin-top: 25%;
+    }
     }
     
     
-}
 #titu{
     color: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
@@ -140,3 +142,5 @@ height: 72%;
 #qsms{
     text-align: center;
     margin-top: 10%;
+
+}

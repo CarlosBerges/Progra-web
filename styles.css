@@ -6,11 +6,13 @@ body{background-color: bisque;}
 .caja1{
     color:whitesmoke; background-color: black;
 padding-top: 175px;
+align-items: center;
 }
 
 #logo{
     width: 12%;
     height: 12%;
+    align-items: center;
 }
 
 
@@ -123,11 +125,7 @@ padding-top: 175px;
 
 
         }
-    #logo{
-        margin-top: 2%;
-
-
-        }
+    
     }
     
     
@@ -146,8 +144,8 @@ padding-top: 175px;
 
 }
 #carrito{
-width: 10%;
-height: 72%;
+width: 2vw;
+
 }
 #qsms{
     text-align: center;

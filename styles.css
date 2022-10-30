@@ -9,8 +9,18 @@ padding-top: 175px;
 align-items: center;
 }
 
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 #logo{
     width: 8vw;
+    margin-left: 3vh;
     align-items: center;
 }
 .checkbtn{

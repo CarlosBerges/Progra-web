@@ -144,18 +144,24 @@ nav{
     margin: 20%;
     text-align: center;
 }
+.sacar{
+    display: none;
+}
 
 @media (max-width: 700px){
     #logo{
         height: 10vh;
         width: 10vh;
     }
+    #carrito {
+        
+        height: 10vh;
+        width: 10vh;
+            
+        }
 
     .contenedor{
         margin-top: 30%;
-        }
-    .centro{
-        width: 90%;
         }
         .bar-btn{
             font-size:25px; 
@@ -166,28 +172,30 @@ nav{
         
         }
         .centro{
+            position: fixed;
             width: 100%;
             height: 0vh;
+            background-color: black;
             top: 100px;
             text-align: center;
             transition: all .5s;
+            flex-direction: column;
         
         }
         .centro li{
             display: none;
             line-height: 30px;
-            margin-top: 5vh;
+            margin-top: 50px 0;
             transition: all .5s;
         }
         .centro li a {
             color: white;
-            font-size:  12px;
+            font-size:  16px;
             text-transform: uppercase;
-            font-weight: 400;
-            align-items: center;  
+            font-weight: 600;
+              
         }
         .centro li a.active, .nav-menu li a:hover {
-            color:blue;
             transition: .3s;
             .bar-btn{
                 height: 7vh;
@@ -205,6 +213,7 @@ nav{
         
         
             }
+
         #check{
             display: none;
         }
@@ -218,6 +227,7 @@ nav{
             display: block;
             float: right;
         }
+        
     
     
     }
@@ -237,10 +247,7 @@ nav{
 
 
 }
-#carrito{
-width: 2vw;
 
-}
 #qsms{
     text-align: center;
     margin-top: 10%;

@@ -49,8 +49,8 @@ nav{
     
     
 .contenedor{
-    height: 10%;
-    width: 65%;
+    height: 70vh;
+    width: 120vh;
     margin: auto;
     overflow: hidden;
     margin-top: 15%;
@@ -162,6 +162,8 @@ nav{
 
     .contenedor{
         margin-top: 30%;
+        height: 60%;
+        width: 80%;
         }
         .bar-btn{
             font-size:25px; 

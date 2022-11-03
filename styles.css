@@ -9,6 +9,10 @@ padding-top: 175px;
 align-items: center;
 }
 
+.tiendaentera{
+    display: inline!important;
+}
+
 #carrito{
     width: 2vw;
 }
@@ -90,14 +94,9 @@ nav{
     text-align: center;
     margin-top: 10%;
 }
-.latien{
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto;
 
 
-}
+
 .nav{
     width: 100%;
     height: 15%;
@@ -257,4 +256,106 @@ nav{
 }
 .barra{
     width: 3vh;
+}
+
+div{
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+}
+
+.carrito{
+    width: 39px;
+    height: 38px;
+}
+.cart-products{
+    position: absolute;
+    top: 82px;
+    right: -18px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    display: none;
+
+    min-width: 290px;
+}
+
+.cart:hover{
+    margin-bottom: 16px;
+    transition-duration: .5s;
+}
+
+.products{
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carts{
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+}
+.carts img{
+    width: 100%;
+}
+.carts p{
+    font-family: system-ui;
+    font-weight: 500;
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+.carts div p{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background-color: red;
+    color: #fff;
+    padding: 2px 7px 4px 21px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.carts div{
+    position: relative;
+}
+.carts a{
+    font-family: system-ui;
+    text-decoration: none;
+    background: red;
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.carts a:hover{
+    background: #fff;
+    color: red;
+    border: solid 2px red;
+    transition-duration: .3s;
+}
+
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+p.author {
+    display: flex;
+    justify-content: center;
+    FONT-VARIANT: JIS04;
+    margin-top: 3%;
+    gap: 7px;
+}
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
 }

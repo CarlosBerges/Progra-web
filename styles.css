@@ -310,18 +310,11 @@ div{
     font-weight: 500;
     padding: 0 20px;
     margin-bottom: 24px;
+    padding-top: 1vh;
 }
-.carts div p{
-    position: absolute;
-    top: 0;
-    right: 0px;
-    background-color: red;
-    color: #fff;
-    padding: 2px 7px 4px 21px;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-}
+
 .carts div{
-    position: relative;
+    position: unset;
 }
 .carts a{
     font-family: system-ui;

@@ -167,4 +167,3 @@ DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 
 renderizarProductos();
 renderizarCarrito();
-

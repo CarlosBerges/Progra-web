@@ -18,24 +18,88 @@
     <br>
     <br>
     <br>
-    <div class="container">
-        <div class="row">
-            <!-- Elementos generados a partir del JSON -->
-            <main id="items" class="col-sm-8 row"></main>
-            <!-- Carrito -->
-            <aside class="col-sm-4">
-                <h2>Carrito</h2>
-                <!-- Elementos del carrito -->
-                <ul id="carrito" class="list-group"></ul>
-                <hr>
-                <!-- Precio total -->
-                <p class="text-right">Total: <span id="total"></span>&euro;</p>
-                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
-            </aside>
-        </div>
-    </div>
-    
-    <script src="java.js"></script>
+</div>
+<form action="https://formsubmit.co/cberges@itba.edu.ar" method="POST">
+  <div id="forms">
+  <label for="inputNombre" class="form-label">Nombre</label>
+  <input type="text" name="name" required><br>
+  <label for="inputNombre" class="form-label">E-Mail</label>
+  <input type="email" name="email" required>
+  <input type="text" name="Total" id="valorProducto" >
+  <textarea name="Productos" id="listaProductos" ></textarea>
+  </div>
 
-</body>
+    <div class="fila1prod" id="productos"> 
+        <div class="card" id="prod">
+          <img src="./imagenes/imagen1.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Media docena de alfajores blancos</h5>
+            <button type="button" class="btn btn-primary btn_carrito" onclick="sumaProductos(700,'Trevi')">+</button>
+          </div>
+        </div>
+        <div class="card" id="prod" >
+          <img src="./imagenes/imagen2.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Docena de alfajores blancos</h5>
+            <button type="button" class="btn btn-primary btn_carrito" onclick="sumaProductos(1200,'Terre')">+</button>
+          </div>
+        </div>
+        <div class="card" id="prod">
+          <img src="./imagenes/imagen3.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Media docena de alfajores de chocolate</h5>
+            <button type="button" class="btn btn-primary btn_carrito" onclick="sumaProductos(700,'Pisa')">+</button>
+          </div>
+        </div>
+        <div class="card" id="prod">
+          <img src="./imagenes/imagen4.jpg" class="card-img-top" >
+          <div class="card-body">
+            <h5 class="card-title">Docena de alfajores de chocolate</h5>
+            <button type="button" class="btn btn-primary btn_carrito" onclick="sumaProductos(1200,'Panteon')">+</button>
+          </div>
+        </div>
+        <div class="card" id="prod">
+            <img src="./imagenes/imagen1.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Unidad de alfajor de chocolate</h5>
+              <button type="button" class="btn btn-primary btn_carrito" onclick="sumaProductos(140,'Trevi')">+</button>
+            </div>
+          </div>
+          <div class="card" id="prod">
+            <img src="./imagenes/imagen1.jpg" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Unidad de alfajor blanco</h5>
+              <button type="button" class="btn btn-primary btn_carrito" onclick="sumaProductos(140,'Trevi')">+</button>
+            </div>
+          </div>
+      </div>
+      
+      <div class="zona_calculadora" id="icalculadora">
+        <div class="texto_calcu"></div>
+        <div class="d-grid gap-2 col-6 mx-auto" id="carrito">
+            <button class="btnnbtn-primary" type="button" disabled>
+                <div class="zona_calculo2" id="calculadora"></div>
+                 <div id="elTotal">  CARRITO   TOTAL: 0 Pesos</div>
+                 <button type="button" class="btn btn-primary " onclick="Limpiar()">Vaciar Carrito</button>
+                 <button type="submit" class="submit">ENVIAR</button>
+            </button>   
+        </div>
+      </form>
+      <script  type="text/javascript" src="java.js"></script>
+
+    </body>
+      
+        
+      
+        <script type="text/javascript">
+          Funcion();
+          </script>
+      
+      </body>
+      
+      <footer id="contacto"> 
+        <a href="https://web.whatsapp.com/"> <img src="./imagenes/" id="WhatsApp" alt="WhatsApp"></a>
+      
+      </footer>
+   
 </html>

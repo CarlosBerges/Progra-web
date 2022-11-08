@@ -347,3 +347,8 @@ p.author a {
     font-weight: 700;
     color: #000;
 }
+#wpp{
+    width: 4vw;
+    margin-left: 3vh;
+    margin-top: 3vh;
+}

@@ -34,6 +34,7 @@ h1{
         display: inline;
         grid-template-columns: 90%;
     }
+    
 }
     
 #prod{
@@ -44,4 +45,39 @@ h1{
 }
 #listaProductos{
     display:none;
+}
+.button{
+    background: #fff;
+    color: red;
+    border: solid 1px red;
+    transition-duration: .3s;
+}
+  
+#prod{
+    border: solid 1px black;
+    margin: 2px
+}
+.card-body{
+    font-family: system-ui;
+    text-decoration: none;
+    padding: 9px 23px;
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.card{
+    width: 67%;
+
+}
+.card-img-top{
+    width: 100%;
+}
+@media (max-width: 900px){
+    .card-img-top{
+        width: 30%;
+    }
+    .card{
+        width: 100%;
+    }
 }
